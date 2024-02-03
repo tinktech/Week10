@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+  <title>Week 10: JS & DOM Coding Assignment</title>
+</head>
+<body class="container">
+  <br>
+
+  <div class="card fixed-top bg-light">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-sm">
+          <div class="h3">Shopping list:</div>
+          <div class="card-header form-group">
+            <label for="new-store-name">Store Name</label>
+            <input type="text" class="form-control" id="new-store-name">
+          </div>
+        </div>
+      </div>
+      <div>
+        <button id="new-store" class="btn btn-secondary btn-sm form-control">Create</button>
+      </div>
+    </div>
+  </div>
+  
+<!-- gap for fixed card -->
+  <div style="padding: 85px;"></div>
+
+  <div id="stores"></div>
+
+  <script src="shop.js"></script>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
